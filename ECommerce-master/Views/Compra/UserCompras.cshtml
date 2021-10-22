@@ -11,13 +11,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ProdutoId)
+               <a @Html.DisplayNameFor(model => model.ProdutoId)>Id</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProdutoNome)
+               <a @Html.DisplayNameFor(model => model.ProdutoNome)>Nome</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProdutoImagem)
+                <a @Html.DisplayNameFor(model => model.ProdutoImagem)>Imagem </a>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Preço)
@@ -26,7 +26,7 @@
                 @Html.DisplayNameFor(model => model.Comprador)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FormaDePagamento)
+               <a @Html.DisplayNameFor(model => model.FormaDePagamento)>Forma de Pagamento</a>
             </th>
             <th></th>
         </tr>
@@ -41,7 +41,7 @@
                 @Html.DisplayFor(modelItem => item.ProdutoNome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ProdutoImagem)
+                <img src="@Html.DisplayFor(modelItem => item.ProdutoImagem)" width="100" height="100" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Preço)
@@ -54,8 +54,8 @@
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Details" asp-controller="Produto" asp-route-id="@item.ProdutoId">Details</a> |
+                
             </td>
         </tr>
 }

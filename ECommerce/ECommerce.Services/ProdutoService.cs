@@ -54,6 +54,14 @@ namespace ECommerce.Services
 
         public async Task Update(ProdutoModel produtoAtualizado)
         {
+            
+            
+            if (produtoAtualizado.UriBlob != null)
+            {
+                var blob = await _blobService.CreateBlobAsync(produtoAtualizado.UriBlob);
+
+                produtoAtualizado.UriBlob = blob;
+            }
             await _produtoRepositorio.Update(produtoAtualizado);
         }
     }

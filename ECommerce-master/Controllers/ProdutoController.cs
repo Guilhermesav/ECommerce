@@ -11,6 +11,8 @@ using ECommerce.Model.Interfaces;
 
 using ECommerce.Model.Interfaces.UnitOfWork;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace ECommerce.Controllers
 {
@@ -38,11 +40,19 @@ namespace ECommerce.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Categoria,UriBlob,Preco,Vendedor")] ProdutoModel produto)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Categoria,UriBlob,Preco,Vendedor")] ProdutoModel produto,IFormFile formFile )
         {
             if (ModelState.IsValid)
             {
-                produto.Vendedor = User.Identity.Name;  
+                produto.Vendedor = User.Identity.Name;
+                string imageBase64;
+                using (var ms = new MemoryStream())
+                {
+                    formFile.CopyTo(ms);
+                    var fileBytes = ms.ToArray();
+                    imageBase64 = Convert.ToBase64String(fileBytes);
+                }
+                produto.UriBlob= imageBase64;
                 await _produtoServices.Create(produto);
                
                 return RedirectToAction(nameof(Index));
@@ -62,10 +72,18 @@ namespace ECommerce.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit([Bind("Id,Nome,Categoria,UriBlob,Preco,Vendedor")] ProdutoModel produto)
+        public async Task<IActionResult> Edit([Bind("Id,Nome,Categoria,Preco,Vendedor")] ProdutoModel produto,IFormFile formFile)
         {
             if (ModelState.IsValid)
             {
+                string imageBase64;
+                using (var ms = new MemoryStream())
+                {
+                    formFile.CopyTo(ms);
+                    var fileBytes = ms.ToArray();
+                    imageBase64 = Convert.ToBase64String(fileBytes);
+                }
+                produto.UriBlob = imageBase64;
                 await _produtoServices.Update(produto);
                
                 return RedirectToAction(nameof(Index));

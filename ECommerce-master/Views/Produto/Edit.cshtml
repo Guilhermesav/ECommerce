@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit"  enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
@@ -24,9 +24,8 @@
                 <span asp-validation-for="Categoria" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UriBlob" class="control-label"></label>
-                <input asp-for="UriBlob" class="form-control" />
-                <span asp-validation-for="UriBlob" class="text-danger"></span>
+                <label class="control-label">Imagem</label>
+                <input type="file" id="formFile" name="formFile" class="custom-input">
             </div>
             <div class="form-group">
                 <label asp-for="Preco" class="control-label"></label>

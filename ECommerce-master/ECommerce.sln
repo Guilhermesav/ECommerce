@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aplicação", "1 - Aplicação", "{2B37D8A7-CC8F-4204-A687-8F1E1192BB8E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Negocio", "2 - Negocio", "{24634F69-078C-410C-B53B-1DD196DA1821}"
+	ProjectSection(SolutionItems) = preProject
+		..\ECommerce\ECommerce.API\Startup.cs = ..\ECommerce\ECommerce.API\Startup.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestrutura", "3 - Infraestrutura", "{1203EC55-311F-4A49-BFCA-63F5708AC2E0}"
 EndProject

@@ -407,3 +407,4 @@ C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.API\obj\Debug\netcore
 C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.API\obj\Debug\netcoreapp3.1\ECommerce.API.dll
 C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.API\obj\Debug\netcoreapp3.1\ECommerce.API.pdb
 C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.API\obj\Debug\netcoreapp3.1\ECommerce.API.genruntimeconfig.cache
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.API\bin\Debug\netcoreapp3.1\ECommerce.StaticWebAssets.xml
