@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[12.10.0, )"
             },
+            "Azure.Storage.Files.Shares": {
+              "target": "Package",
+              "version": "[12.1.0, )"
+            },
             "Azure.Storage.Queues": {
               "target": "Package",
               "version": "[12.8.0, )"
@@ -152,6 +156,10 @@
             "Azure.Storage.Blobs": {
               "target": "Package",
               "version": "[12.10.0, )"
+            },
+            "Azure.Storage.Files.Shares": {
+              "target": "Package",
+              "version": "[12.1.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",

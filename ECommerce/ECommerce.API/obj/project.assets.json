@@ -65,6 +65,20 @@
           "lib/netstandard2.0/Azure.Storage.Common.dll": {}
         }
       },
+      "Azure.Storage.Files.Shares/12.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.0.2",
+          "Azure.Storage.Common": "12.2.0",
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Files.Shares.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Files.Shares.dll": {}
+        }
+      },
       "Azure.Storage.Queues/12.8.0": {
         "type": "package",
         "dependencies": {
@@ -3435,6 +3449,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Azure.Storage.Blobs": "12.10.0",
+          "Azure.Storage.Files.Shares": "12.1.0",
           "Azure.Storage.Queues": "12.8.0",
           "ECommerce.IoC": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.10",
@@ -3600,6 +3615,22 @@
         "azure.storage.common.nuspec",
         "lib/netstandard2.0/Azure.Storage.Common.dll",
         "lib/netstandard2.0/Azure.Storage.Common.xml",
+        "pkgicon.png"
+      ]
+    },
+    "Azure.Storage.Files.Shares/12.1.0": {
+      "sha512": "qF0nsCNh+SqUvRyx0zG8teJsEImeFlO5uqpcWtursupvhyG+kBJOuSRjUQDoK1Uw4tS2IxkrTV1R5vXP03KGcA==",
+      "type": "package",
+      "path": "azure.storage.files.shares/12.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.files.shares.12.1.0.nupkg.sha512",
+        "azure.storage.files.shares.nuspec",
+        "lib/netstandard2.0/Azure.Storage.Files.Shares.dll",
+        "lib/netstandard2.0/Azure.Storage.Files.Shares.xml",
         "pkgicon.png"
       ]
     },
@@ -10171,6 +10202,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Azure.Storage.Blobs >= 12.10.0",
+      "Azure.Storage.Files.Shares >= 12.1.0",
       "ECommerce >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.20",
@@ -10226,6 +10258,10 @@
           "Azure.Storage.Blobs": {
             "target": "Package",
             "version": "[12.10.0, )"
+          },
+          "Azure.Storage.Files.Shares": {
+            "target": "Package",
+            "version": "[12.1.0, )"
           },
           "Microsoft.AspNetCore.Mvc.Abstractions": {
             "target": "Package",

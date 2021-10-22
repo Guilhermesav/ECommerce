@@ -8,9 +8,11 @@
       "type": "mssql.local",
       "connectionId": "ECommerceContext"
     },
-    "mssql3": {
-      "type": "mssql.local",
-      "connectionId": "placeholder"
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/ecommerceinfnetblob",
+      "type": "storage.azure",
+      "connectionId": "ecommerceinfnetblob",
+      "secretStore": "LocalSecretsFile"
     }
   }
 }

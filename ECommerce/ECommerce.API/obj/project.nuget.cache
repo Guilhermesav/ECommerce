@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sZnyfEr7l+g/FFqW4e2LuxEVc0TtCBozvvKLamzUforKnvOyc53MAmuJNalCPgtkw6gDbR5YlI14xY+9ntpUqA==",
+  "dgSpecHash": "RqeXSRfRP5IjksTSIZDzGOdsF9icWaNfW4OVfM0HTvXwCXYKnS8b40ohEPTtXpq15/URSvAC86BLYdzER/Ihqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PICHAU\\Desktop\\FAculdade\\ECOM\\ECommerce\\ECommerce.API\\ECommerce.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\PICHAU\\.nuget\\packages\\azure.identity\\1.4.0\\azure.identity.1.4.0.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\azure.storage.blobs\\12.10.0\\azure.storage.blobs.12.10.0.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\azure.storage.common\\12.9.0\\azure.storage.common.12.9.0.nupkg.sha512",
+    "C:\\Users\\PICHAU\\.nuget\\packages\\azure.storage.files.shares\\12.1.0\\azure.storage.files.shares.12.1.0.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\azure.storage.queues\\12.8.0\\azure.storage.queues.12.8.0.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxja4pMinOkOsNbCSr9QMCAAAAAACAAAAAAAQZgAAAAEAACAAAAAJi/tdJkS+cjiZzaEBy8/K5YYrdC6aI4ggj+rl8uCx0wAAAAAOgAAAAAIAACAAAACA4Js/SM8W1KaxTUlYvnYZyqC72nMaxOCcnXeWiVALbIAAAABIi6YLOZp1hoPQAX/1WjPrMmj5LzfJo0Se8wZPHg+zgmdEihbT4GZ8pokchITMPawV1d+ikjpaKYGt4GL0ikkfbSA4uj/83g4ez8mpEyConxuEZ67RPTggln2Ur+9Vdu4P6bgNdHIof429DVe2gdD1td9DOQyzXYkXu/sDGfs4BkAAAACZF35CQKnkVBDgoUPyfWTLcZ/keuqmPUp2CCCJMK3BiePaImh89QFQ4lktNy/y33xWgxMDd7GVbUGmPAcwSalU</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="ECommerce.Data.ApplicationDbContext">
+      <Value>Server=tcp:ecommerceinfnet.database.windows.net,1433%3bInitial Catalog=produtoDB%3bPersist Security Info=False%3bUser ID=ecommerceadmin%3bPassword=ecom-123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="ECommerce.Data.ECommerceContext">
+      <Value>Server=tcp:ecommerceinfnet.database.windows.net,1433%3bInitial Catalog=produtoDB%3bPersist Security Info=False%3bUser ID=ecommerceadmin%3bPassword=ecom-123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

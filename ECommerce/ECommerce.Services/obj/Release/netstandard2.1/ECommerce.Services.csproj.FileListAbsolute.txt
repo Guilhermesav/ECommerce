@@ -10,3 +10,15 @@ C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Services\obj\Release\netst
 C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.csproj.CopyComplete
 C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.dll
 C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.pdb
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\bin\Release\netstandard2.1\ECommerce.Services.deps.json
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\bin\Release\netstandard2.1\ECommerce.Services.dll
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\bin\Release\netstandard2.1\ECommerce.Services.pdb
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\bin\Release\netstandard2.1\ECommerce.Model.dll
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\bin\Release\netstandard2.1\ECommerce.Model.pdb
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.csprojAssemblyReference.cache
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.AssemblyInfo.cs
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.csproj.CopyComplete
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.dll
+C:\Users\PICHAU\Desktop\FAculdade\ECOM\ECommerce\ECommerce.Services\obj\Release\netstandard2.1\ECommerce.Services.pdb

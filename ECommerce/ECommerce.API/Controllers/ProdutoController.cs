@@ -68,7 +68,6 @@ namespace ECommerce.API.Controllers
 
             return produto;
         }
-        ///
         [HttpPut]
         public async Task<ActionResult<ProdutoModel>> PutProdutoModel([Bind("Id,Nome,Categoria,UriBlob,Preco,Vendedor")] ProdutoModel produtoModel)
         {

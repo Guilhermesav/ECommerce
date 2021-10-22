@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ECommerceAPI20211021234901" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\PICHAU\\Desktop\\FAculdade\\ECOM\\ECommerce\\ECommerce\.API\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="ECommerce.Data.ApplicationDbContext" description="" value="Server=tcp:ecommerceinfnet.database.windows.net,1433;Initial Catalog=produtoDB;Persist Security Info=False;User ID=ecommerceadmin;Password=ecom-123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\PICHAU\\Desktop\\FAculdade\\ECOM\\ECommerce\\ECommerce\.API\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\ECommerce\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+  <parameter name="ECommerce.Data.ECommerceContext" description="" value="Server=tcp:ecommerceinfnet.database.windows.net,1433;Initial Catalog=produtoDB;Persist Security Info=False;User ID=ecommerceadmin;Password=ecom-123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\PICHAU\\Desktop\\FAculdade\\ECOM\\ECommerce\\ECommerce\.API\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\ECommerce\.Data\.ECommerceContext\.sql$" />
+  </parameter>
+</parameters>

@@ -25,6 +25,7 @@
       "ECommerce.API/1.0.0": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.10.0",
+          "Azure.Storage.Files.Shares": "12.1.0",
           "ECommerce": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.20",
@@ -370,6 +371,22 @@
         },
         "compile": {
           "lib/netstandard2.0/Azure.Storage.Common.dll": {}
+        }
+      },
+      "Azure.Storage.Files.Shares/12.1.0": {
+        "dependencies": {
+          "Azure.Core": "1.19.0",
+          "Azure.Storage.Common": "12.9.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Files.Shares.dll": {
+            "assemblyVersion": "12.1.0.0",
+            "fileVersion": "12.100.20.11104"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Files.Shares.dll": {}
         }
       },
       "Azure.Storage.Queues/12.8.0": {
@@ -2872,6 +2889,7 @@
       "ECommerce/1.0.0": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.10.0",
+          "Azure.Storage.Files.Shares": "12.1.0",
           "Azure.Storage.Queues": "12.8.0",
           "ECommerce.IoC": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.10",
@@ -4555,6 +4573,13 @@
       "sha512": "sha512-GuoigTmzz9HrCGdcdu7LyjD4pDr2XPt72LlWWTDyno+nYrjyuNwpwRFBvK/brxJvQFRHofQcBskf8vOxVxnI8g==",
       "path": "azure.storage.common/12.9.0",
       "hashPath": "azure.storage.common.12.9.0.nupkg.sha512"
+    },
+    "Azure.Storage.Files.Shares/12.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qF0nsCNh+SqUvRyx0zG8teJsEImeFlO5uqpcWtursupvhyG+kBJOuSRjUQDoK1Uw4tS2IxkrTV1R5vXP03KGcA==",
+      "path": "azure.storage.files.shares/12.1.0",
+      "hashPath": "azure.storage.files.shares.12.1.0.nupkg.sha512"
     },
     "Azure.Storage.Queues/12.8.0": {
       "type": "package",
