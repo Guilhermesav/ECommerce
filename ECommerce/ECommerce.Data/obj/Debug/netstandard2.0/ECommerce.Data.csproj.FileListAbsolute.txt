@@ -1,0 +1,8 @@
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\bin\Debug\netstandard2.0\ECommerce.Data.deps.json
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\bin\Debug\netstandard2.0\ECommerce.Data.dll
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\bin\Debug\netstandard2.0\ECommerce.Data.pdb
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\obj\Debug\netstandard2.0\ECommerce.Data.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\obj\Debug\netstandard2.0\ECommerce.Data.AssemblyInfo.cs
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\obj\Debug\netstandard2.0\ECommerce.Data.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\obj\Debug\netstandard2.0\ECommerce.Data.dll
+C:\Users\PICHAU\Desktop\FAculdade\ECommerce\ECommerce.Data\obj\Debug\netstandard2.0\ECommerce.Data.pdb

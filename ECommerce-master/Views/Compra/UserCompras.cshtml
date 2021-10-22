@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ECommerce.Model.CompraModel>
+
+@{
+    ViewData["Title"] = "UserCompras";
+}
+
+<h1>Historico de Compras</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProdutoId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProdutoNome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProdutoImagem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preço)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comprador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FormaDePagamento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProdutoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProdutoNome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProdutoImagem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preço)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comprador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormaDePagamento)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

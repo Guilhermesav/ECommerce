@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ECommerce.Model.ProdutoModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Catálogo</h1>
+
+<p>
+    <a asp-action="Create">Adicionar Produto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                <a @Html.DisplayNameFor(model => model.UriBlob)> Imagem</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vendedor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UriBlob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vendedor)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar Produto</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Remover do Catálogo</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

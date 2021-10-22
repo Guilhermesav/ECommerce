@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "ECommerce.Services/1.0.0": {
+        "dependencies": {
+          "ECommerce.Model": "1.0.0"
+        },
+        "runtime": {
+          "ECommerce.Services.dll": {}
+        }
+      },
+      "ECommerce.Model/1.0.0": {
+        "runtime": {
+          "ECommerce.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommerce.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerce.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
